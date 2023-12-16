@@ -8,3 +8,7 @@ When running the algorithm in parallel on a GPU, we use CUDA, which is the faste
 Parallel on CPU
 ---
 When running the algorithm in parallel on a CPU, we can assign some tasks to each core and see how they work. There are two methods to do this. The first method is similar to CUDA but on a smaller scale using OpenMP. The second method is Message Passing( MPI ), which is completely different. In the Message Passing method, some tasks are assigned to each core. They have their own data, do the calculations, and if there is any resource that should be shared, they ask for the data from other owners. The difference between the two methods is the resource sharing method.
+
+Introduction to the Ocean Kernel Algorithm
+---
+There are some ScreenShots and algorithms uploaded to the repository containing the definition of the algothim. Read them please
